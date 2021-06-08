@@ -4,32 +4,31 @@ body{ /**Box-Main**/
 }
 
 .top-bar {
-    display: grid;
-    grid-template-columns: 1 1 1;
-    grid-template-rows: 1 1 1;
     justify-content: center;
-    background-color: rgba(208, 226, 226, 0.671);
+}
+
+.top-bar hr {
+    width: 30%;
 }
 
 .top-logo {
     color: rgb(19, 54, 129);
-    padding: 20px;
     text-align: center;
 }
 
 .top-navegacao {
-   text-align: center;
-   padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .top-navegacao button {
+    margin: 5px;
     color: rgb(98, 128, 192);
     background-color: black;
 }
 
 .little-box {
     display: flex;
-    background-color: rgb(227, 234, 250);
     justify-content: space-around;
 }
 
@@ -37,25 +36,21 @@ body{ /**Box-Main**/
     display: flex;
     width: 25%;
     justify-content: center;
+    margin: 10px 0px;
 }
 
 .small-content img {
-    border-style: dashed;
-    padding: 1px;
-    color: rgb(71, 123, 236);
-    box-shadow: 5px;
     width: 50%;
 }
 
 .anuncio{
     display: flex;
+    justify-content: space-around;
 }
 
-.anuncio .anuncio-banner img{
+.anuncio-banner img{
     display: flex;
-    width: 90%;
     justify-content: space-around;
-    padding: 10px;
 }
 
 .box-filme {
@@ -64,46 +59,32 @@ body{ /**Box-Main**/
     display: block;
 }
 
-.carrolsel-filme{
-    margin-top: 1px ;
-}
-
 .algunsProdutores{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 0px;
 }
 
-.algunsProdutores .produtores {
-    display: grid;
-    align-items: center;
-    padding-left: 5%;
-    grid-template-columns: auto auto auto;
-    background-color: rgb(11, 12, 12);
-        
+.produtores {
+    display: flex;
+    justify-content: center;
 }
 
-.algunsProdutores .produtores img{
-    width: 70%;
-    height: 80%;
+.produtores img{
+    width: 50%;
     border-radius: 50%;
-
 }
 
-/* .algunsProdutores .produtores img {
-    
+#link {
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
-.algunsProdutores .produtores .i1{
-    margin-right: 10px;
-    
-}
-.algunsProdutores .produtores .i2{
-    margin-left: 5px;
-    margin-right: 5px;
 
-} */
-
-.Limitar {
+.footer {
     color: red;
     background-color: black;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 0px;
 }

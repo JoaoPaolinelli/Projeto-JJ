@@ -1,43 +1,52 @@
 body{ /**Box-Main**/
-  
+    margin: 0;
     background-color: rgba(241, 241, 241, 0.849);
 }
+
 .top-bar {
     display: grid;
     grid-template-columns: 1 1 1;
     grid-template-rows: 1 1 1;
     justify-content: center;
     background-color: rgba(208, 226, 226, 0.671);
-    
 }
-.top-bar .top-navegacao {
-   
-    text-align: center;
-   padding-bottom: 10px;
-}
-.top-bar .top-logo {
+
+.top-logo {
     color: rgb(19, 54, 129);
-    
     padding: 20px;
     text-align: center;
 }
 
-.top-bar button {
+.top-navegacao {
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+.top-navegacao button {
     color: rgb(98, 128, 192);
     background-color: black;
 }
 
-.top-imagens {
-    display: grid;
+.little-box {
+    display: flex;
+    background-color: rgb(227, 234, 250);
+    justify-content: space-around;
+}
 
+.small-content{
+    display: flex;
+    width: 25%;
+    justify-content: center;
 }
-.top-imagens img{
-    /* viewport-fit: auto; */
-    width: 100%;    
-    /* grid-template-rows: auto auto auto;
-    text-align: center;
-    justify-content: center; */
+
+.small-content img {
+    border-style: dashed;
+    padding: 1px;
+    color: rgb(71, 123, 236);
+    box-shadow: 5px;
+    width: 50%;
 }
+
 .anuncio{
     display: flex;
 }
@@ -49,32 +58,14 @@ body{ /**Box-Main**/
     padding: 10px;
 }
 
-
-.little-box {
-    display: flex;
-    background-color: rgb(227, 234, 250);
-    justify-content: space-around;
+.box-filme {
+    height: 15rem;
+    width: 15rem;
+    display: block;
 }
 
-.little-box img {
-    border-style: dashed;
-    padding: 1px;
-    color: rgb(71, 123, 236);
-    box-shadow: 5px;
-}
-.small-pic2 img {
-    padding: 0;
-    margin: 0;
-}
-
-.small-content{
-   
-    display: flex;
-    width: 25%;
-    justify-content: center;
-}
-.small-content img{
-    width: 50%;
+.carrolsel-filme{
+    margin-top: 1px ;
 }
 
 .algunsProdutores{
@@ -89,13 +80,13 @@ body{ /**Box-Main**/
     background-color: rgb(11, 12, 12);
         
 }
+
 .algunsProdutores .produtores img{
     width: 70%;
     height: 80%;
     border-radius: 50%;
 
 }
-
 
 /* .algunsProdutores .produtores img {
     
@@ -110,18 +101,7 @@ body{ /**Box-Main**/
 
 } */
 
-.carrolsel-filme{
-    margin-top: 1px ;
-}
-
-.box-filme {
-    height: 15rem;
-    width: 15rem;
-    display: block;
-}
-
-
-.Limitar{
+.Limitar {
     color: red;
     background-color: black;
     text-align: center;
